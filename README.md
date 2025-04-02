@@ -7,6 +7,7 @@
 - O resultado da média deve ser exibido com duas casas decimais.
 - As notas devem ser validadas para garantir que são números no intervalo [0, 10].
 - Caso alguma nota esteja fora do intervalo ou não seja um número, o programa deve exibir um alerta informando o erro e não prosseguir com o cálculo.
+</br>
 Exemplo de saída: João Pedro - Média: 8.50
 
 2) Crie um programa para gerenciar produtos de um estoque.
