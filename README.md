@@ -16,6 +16,7 @@ Exemplo de saída: João Pedro - Média: 8.50
 - Calcular o valor total do estoque.
 Permita ao usuário cadastrar produtos, atualizar o estoque e visualizar os dados já cadastrado.
 </br>
+
 3) Utilize HTML e JavaScript para:
   Desenvolver com POO um programa para gerenciar pedidos em um restaurante.
 - Crie uma classe Pedido com atributos como itens (array), quantidades e preços.
