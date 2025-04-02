@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script type="module" src="js/GerenciadorDeEstoque.js" defer></script>
+    <!-- script type="module" src="js/script.js" defer></script -->
+    <title>Gerenciador de Estoque</title>
+  </head>
+  <body>
+    <h1>Gerenciador de Estoque</h1>
+    <label for="nome">Nome do Produto: </label>
+    <input type="text" id="nome" />
+    <br />
+    <label for="quantidade">Quantidade: </label>
+    <input type="number" id="quantidade" />
+    <label for="preco">Preço Unitário: </label>
+    <input type="number" id="preco" step="0.01" />
+    <br />
+    <button id="adicionarBtn">Adicionar Produto</button>
+    <button id="removerBtn">Remover Produto</button>
+    <h2>Estoque Atual</h2>
+    <ul id="estoqueLista"></ul>
+  </body>
+</html>
