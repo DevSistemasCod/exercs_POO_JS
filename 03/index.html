@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script type="module" src="./js/Principal.js" defer></script>
+    <!-- script type="module" src="./js/script.js" defer></script -->
+    <title>Gerenciamento de Pedidos</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Gerenciamento de Pedidos</h1>
+
+      <label for="item">Item:</label>
+      <input type="text" id="item" placeholder="Nome do item" />
+
+      <label for="quantidade">Quantidade:</label>
+      <input type="number" id="quantidade" placeholder="Quantidade" />
+
+      <label for="preco">Preço:</label>
+      <input type="number" id="preco" placeholder="Preço" step="0.01" />
+
+      <button id="adicionarBtn">Adicionar Item</button>
+      <button id="finalizarBtn">Finalizar Pedido</button>
+
+      <h2>Itens do Pedido</h2>
+      <ul id="lista"></ul>
+
+      <h2>Total: R$ <span id="total">0.00</span></h2>
+    </div>
+  </body>
+</html>
